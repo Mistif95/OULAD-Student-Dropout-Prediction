@@ -88,7 +88,7 @@ Binary classification: `Withdrawn` vs. `Non-Withdrawn` from `final_result`.
 
 The app is deployed on **Streamlit Community Cloud** and publicly accessible at:
 
-**🔗 [Link Deployment — add here]**
+**🔗 https://oulad-student-dropout-prediction-mistif95.streamlit.app/**
 
 ### App Features
 
