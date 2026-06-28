@@ -108,12 +108,32 @@ The app is deployed on **Streamlit Community Cloud** and publicly accessible at:
 
 ## ⚙️ Installation
 
+It is highly recommended to create a virtual environment before installing the dependencies. This ensures that the project packages do not conflict with your system-wide Python installations.
+
+## 1. Clone Repo or download the files
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Mistif95/OULAD-Student-Dropout-Prediction.git
+cd OULAD-Student-Dropout-Prediction
 pip install -r requirements.txt
 ```
 
+## 2. Create a virtual environment
+```bash
+python -m venv venv
+```
+## 3. Activate the virtual environment
+```bash
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+## 4. Install required dependencies
+```bash
+pip install -r requirements.txt
+```
+## 5. Running the project
 To run the app locally:
 
 ```bash
@@ -124,14 +144,15 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## 📊 Model Performance
+## 📊 Model Performance LightGBM 
 
 | Metric | Score |
 |---|---|
-| ROC-AUC | *(add here)* |
-| F1-Score | *(add here)* |
-| Recall | *(add here)* |
-| Precision | *(add here)* |
+| Accuracy | 0.9967 |
+| ROC-AUC | 0.9997 |
+| F1-Score | 0.9951 |
+| Recall | 0.9903 |
+| Precision | 1.0000 |
 
 ---
 
@@ -145,23 +166,27 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## 👥 Team
+## 👥 Team Runner
 
 | Name | Role |
 |---|---|
-| *(add name)* | *(add role)* |
-| *(add name)* | *(add role)* |
+| Rayhan Aliffio Wibowo | Member |
 
 ---
 
 ## ⚖️ Ethics & Attribution
 
 - Dataset: [OULAD — Open University Learning Analytics Dataset](https://analyse.kmi.open.ac.uk/open_dataset)
-- AI tools used in development: **Claude (Anthropic)**, *(add others if applicable)*
-- All code and analysis are original work by the team.
+- AI tools used in development: **Claude (Anthropic)**
+- All code and analysis are original work by the Team Runner.
 
 ---
 
+## 🤖 AI Usage Acknowledgement
+In accordance with the guidelines of the GWE 2026 Data Science Challenge, we transparently declare the use of Artificial Intelligence tools during the development of this end-to-end Data Science project.
+
+- Claude (Anthropic): Leveraged for code optimization, troubleshooting complex debugging issues, and refining the structure of our Streamlit deployment.
+
 ## 📄 License
 
-This project is submitted as part of the **GWE 2026 Data Science Challenge**. All rights reserved by the team.
+This project is submitted as part of the **GWE 2026 Data Science Challenge**. All rights reserved by the Team Runner.
