@@ -1,17 +1,17 @@
-# 🎓 Student Dropout Early Warning System
+# Student Dropout Early Warning System
 **GWE 2026 Data Science Challenge — Grow With EDM Gen 7**
 
 An end-to-end Data Science project that leverages the **Open University Learning Analytics Dataset (OULAD)** to predict student dropout risk using machine learning. The system serves as an **Early Warning System** for educators to identify at-risk students before they disengage.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Student dropout is a critical challenge in higher education. By analyzing demographics, assessment performance, and Virtual Learning Environment (VLE) interaction patterns, this project builds a predictive model that flags students at risk of withdrawal — enabling timely, targeted intervention.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. **Data Integration** — Merge student demographics, course info, assessment records, and VLE click data into a unified feature set.
 2. **Exploratory Analysis** — Identify behavioral differences between students who complete vs. withdraw from courses.
@@ -20,7 +20,7 @@ Student dropout is a critical challenge in higher education. By analyzing demogr
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 ├── README.md
@@ -40,7 +40,7 @@ Student dropout is a critical challenge in higher education. By analyzing demogr
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 This project uses the **Open University Learning Analytics Dataset (OULAD)**, available on [Kaggle](https://www.kaggle.com/) and the [Open University website](https://analyse.kmi.open.ac.uk/open_dataset).
 
@@ -58,7 +58,7 @@ This project uses the **Open University Learning Analytics Dataset (OULAD)**, av
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### Features Engineered
 
@@ -84,7 +84,7 @@ Binary classification: `Withdrawn` vs. `Non-Withdrawn` from `final_result`.
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 The app is deployed on **Streamlit Community Cloud** and publicly accessible at:
 
@@ -144,7 +144,7 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## 📊 Model Performance LightGBM 
+## Model Performance LightGBM 
 
 | Metric | Score |
 |---|---|
@@ -156,7 +156,7 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** — pandas, numpy
 - **Visualization** — matplotlib, seaborn, plotly
@@ -166,7 +166,7 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## 👥 Team Runner
+## Team Runner
 
 | Name | Role |
 |---|---|
@@ -174,7 +174,7 @@ Place the OULAD CSV files in the `data/` directory before running.
 
 ---
 
-## ⚖️ Ethics & Attribution
+## Ethics & Attribution
 
 - Dataset: [OULAD — Open University Learning Analytics Dataset](https://analyse.kmi.open.ac.uk/open_dataset)
 - AI tools used in development: **Claude (Anthropic)**
